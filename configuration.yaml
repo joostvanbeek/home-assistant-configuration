@@ -6,10 +6,9 @@ homeassistant:
   unit_system: metric
   auth_mfa_modules:
     - type: totp
-    
+
 lovelace:
   mode: yaml 
- 
 # Example configuration.yaml entry 
 # See https://www.home-assistant.io/integrations/default_config/
 default_config:
