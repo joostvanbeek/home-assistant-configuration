@@ -1,0 +1,9 @@
+sun:
+  # The (physical) elevation of your location, in meters above sea level.
+  elevation: !secret home_elevation
+  unit_system: metric
+#  auth_mfa_modules:
+#    - type: totp
+  latitude: !secret home_latitude
+  longitude: !secret home_longitude
+  time_zone: Europe/Amsterdam
