@@ -2,4 +2,4 @@ sensor:
   - platform: github
     access_token: !secret githubtoken
     repositories:
-      - path: 'home-assistant-configuration'
+      - path: 'joostvanbeek/home-assistant-configuration'
