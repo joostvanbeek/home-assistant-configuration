@@ -1,11 +1,11 @@
-- alias: stuur bericht als het nog 45 min is voordat de zon ondergaat
-  trigger:
-    platform: sun
-    # Possible values: sunset, sunrise
-    event: sunset
-    # Optional time offset. This example will trigger 45 minutes before sunset.
-    offset: "-00:45:00"
-  action:
+alias: stuur bericht als het nog 45 min is voordat de zon ondergaat
+trigger:
+  platform: sun
+  # Possible values: sunset, sunrise
+  event: sunset
+  # Optional time offset. This example will trigger 45 minutes before sunset.
+  offset: "-00:45:00"
+action:
   service: notify.notify
   data_template:
     message: "The sun is {% if is_state('sun.sun', 'above_horizon') %}up{% else %}down{% endif %}!"

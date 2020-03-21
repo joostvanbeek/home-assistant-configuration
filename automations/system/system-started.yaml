@@ -1,9 +1,9 @@
-- alias: stuur telegram message on startup
-  trigger:
-    platform: homeassistant
-    event: start
-  action:
-    service: telegram_bot.send_message
-    data:
-      message: 'Home assistant is gestart'
+alias: stuur telegram message on startup
+trigger:
+  platform: homeassistant
+  event: start
+action:
+  service: telegram_bot.send_message
+  data:
+    message: 'Home assistant is gestart'
 
