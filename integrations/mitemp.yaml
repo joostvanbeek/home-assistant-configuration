@@ -1,0 +1,15 @@
+---
+#
+#
+#
+
+sensor:
+  - platform: mitemp_bt
+    mac: '4C:65:A8:DD:7B:23'
+    name: Slaapkamer Room Temp
+    force_update: true
+    median: 1
+    monitored_conditions:
+      - temperature
+      - humidity
+      - battery

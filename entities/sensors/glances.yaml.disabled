@@ -1,0 +1,4 @@
+platform: glances
+username: !secret glancesusr
+password: !secret glancespw
+version: 3

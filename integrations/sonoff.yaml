@@ -1,0 +1,7 @@
+---
+sonoff:
+  username: !secret sonoffun
+  password: !secret sonoffpw
+  force_update: [temperature, power]
+  scan_interval: '00:05:00'  # (optional) default 5 minutes
+  sensors: [temperature, humidity, power, current, voltage]

@@ -1,0 +1,10 @@
+alias: Doe lamp aan als de carportdeur open is
+trigger:
+  platform: state
+  entity_id: binary_sensor.door_window_sensor_158d0001ef6cf3
+  from: 'off'
+  to: 'on'
+action:
+  service: notify.telegram
+  data:
+    message: 'de deur gaat open naar de carport'

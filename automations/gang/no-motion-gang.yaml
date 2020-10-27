@@ -1,0 +1,11 @@
+alias: Zet de lamp uit na 2 minuten na de laatste beweging
+trigger:
+  platform: state
+  entity_id: binary_sensor.philips_sml001_7ace1302_occupancy
+  to: 'off'
+  for:
+    minutes: 2
+action:
+  service: light.turn_off
+  entity_id: light.philips_lct015_a0601003_level_light_color_on_off
+   

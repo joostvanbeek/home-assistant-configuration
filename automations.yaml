@@ -1,1 +1,50 @@
-[]
+- id: '1603012415746'
+  alias: Zet de lampen uit 1 uur na zonsopkomt
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunrise
+    offset: +01:00:00
+  condition: []
+  action:
+  - type: turn_off
+    device_id: 52db0dbb4ffd48028356681e5704174b
+    entity_id: light.philips_lct001_df6ed300_level_light_color_on_off
+    domain: light
+  - type: turn_off
+    device_id: b5e61994beea42e49da08adb9c31ea6c
+    entity_id: light.philips_lst001_62a1ce00_level_light_color_on_off
+    domain: light
+  - type: turn_off
+    device_id: 7485340ad4ed4e17864a0324dcd90726
+    entity_id: light.philips_lct001_b274ff00_level_light_color_on_off
+    domain: light
+  - type: turn_off
+    device_id: 557308c72a234b4daf381ed4d74c7f3b
+    entity_id: light.mli_zbt_extendedcolor_9b11f7fe_level_light_color_on_off
+    domain: light
+  - type: turn_off
+    device_id: b09ef983a4c444198d06a24f93732b7d
+    entity_id: light.anne_buro_level_on_off
+    domain: light
+  - type: turn_off
+    device_id: b2f34997cd3e4be1a519b220172cd7ab
+    entity_id: light.mli_zbt_extendedcolor_d5d344fe_level_light_color_on_off
+    domain: light
+  - type: turn_off
+    device_id: cedebde3077642c3b512ce6c8c66eab1
+    entity_id: light.philips_lst001_03c6cf00_level_light_color_on_off
+    domain: light
+  - type: turn_off
+    device_id: ceab980e472143b49e6e4b173f06e19a
+    entity_id: switch.osram_plug_01_3c02010a_on_off
+    domain: switch
+  - type: turn_off
+    device_id: d6a9d39ce5344916845ec3fbc65fafd2
+    entity_id: light.philips_lwb004_a67ae500_level_on_off
+    domain: light
+  - type: turn_off
+    device_id: 09e7207e070e441a959df49a67d9433f
+    entity_id: light.philips_lwb004_0c7be500_level_on_off
+    domain: light
+  mode: single

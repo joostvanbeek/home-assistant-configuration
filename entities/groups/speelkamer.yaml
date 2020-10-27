@@ -1,0 +1,11 @@
+Speelkamer:
+  - light.speelkamer1_level_on_off
+  - light.speelkamer2_level_on_off
+  - light.speelkamer3_level_on_off
+  - light.speelkamer4_level_on_off
+  - light.speelkamer5_level_on_off
+  - light.speelkamer6_level_on_off
+  - light.speelkamer7_level_on_off
+  - light.speelkamer8_level_on_off
+  - light.speelkamer9_level_on_off
+

@@ -1,0 +1,4 @@
+timer:
+  anneslapen15:
+    duration: '00:00:10'
+

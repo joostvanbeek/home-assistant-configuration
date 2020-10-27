@@ -3,6 +3,7 @@
 *.csr
 *.crt
 *.key
+*.old
 *.conf
 *.json
 *.py
@@ -17,6 +18,7 @@ lib
 deps
 esphome
 glances
+custom_components
 tts
 www
 secrets.yaml

@@ -1,0 +1,12 @@
+# When timer is stopped, the time run out, another message is sent
+alias: Timerstop
+trigger:
+- platform: event
+  event_type: timer.finished
+  event_data:
+    entity_id: timer.bramslapen10
+action:
+  - service: scene.turn_on
+    entity_id: scene.bram_slaapstand
+  - service: input_boolean.turn_off
+    entity_id: input_boolean.slapen_bram_in_10_min

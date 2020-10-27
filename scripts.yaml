@@ -1,0 +1,12 @@
+'1594153845256':
+  alias: testscript voor lamp1 in de speelkamer
+  sequence:
+  - device_id: d569d5a1d1d1422887c91847212c46f9
+    domain: light
+    entity_id: light.ikea1_level_on_off
+    type: toggle
+  - delay: '2'
+  - device_id: d569d5a1d1d1422887c91847212c46f9
+    domain: light
+    entity_id: light.ikea1_level_on_off
+    type: toggle

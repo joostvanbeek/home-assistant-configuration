@@ -1,0 +1,9 @@
+input_text:
+  slaaptimer_anne:
+    name: Text 3
+    initial: '15'
+    pattern: '[0-9]*'
+  slaaptimer_bram:
+    name: Text 3
+    initial: '15'
+    pattern: '[0-9]*'    

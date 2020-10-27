@@ -1,0 +1,8 @@
+alias: Zet de lamp in de gang aan als er beweging is
+trigger:
+  platform: state
+  entity_id: binary_sensor.philips_sml001_7ace1302_occupancy
+  to: 'on'
+action:
+  service: light.turn_on
+  entity_id: light.philips_lct015_a0601003_level_light_color_on_off

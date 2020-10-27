@@ -8,4 +8,4 @@ trigger:
 action:
   service: notify.notify
   data_template:
-    message: "The sun is {% if is_state('sun.sun', 'above_horizon') %}up{% else %}down{% endif %}!"
+    message: "De zon gaat over 45min onder! Stap snel op de fiets voor het te laat is..."

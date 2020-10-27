@@ -1,0 +1,11 @@
+# When timer is stopped, the time run out, another message is sent
+alias: Timerstop
+trigger:
+- platform: event
+  event_type: timer.finished
+  event_data:
+    entity_id: timer.slaapkamerlamp
+action:
+  service: light.turn_off
+  data:
+    entity_id: light.philips_lwb004_a67ae500_level_on_off

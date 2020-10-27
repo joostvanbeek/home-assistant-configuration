@@ -1,0 +1,3 @@
+entity_blacklist:
+  - sensor.unavailable_entities
+  # any other entities that you don't mind being unavailable/unknown/none

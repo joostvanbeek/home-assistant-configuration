@@ -1,0 +1,28 @@
+alias: Lampen op annes kamer aan met de remote
+trigger:
+- event_data:
+    device_ieee: 00:15:8d:00:03:47:cf:0d
+    unique_id: 00:15:8d:00:03:47:cf:0d:1:0x0006
+    command: 'on'
+  event_type: zha_event
+  platform: event
+action:
+- entity_id: light.ikea_of_sweden_tradfri_bulb_gu10_w_400lm_389108fe_level_on_off
+  service: light.turn_on
+- entity_id: light.mli_zbt_extendedcolor_d5d344fe_level_light_color_on_off
+  service: light.turn_on
+- entity_id: light.mli_zbt_extendedcolor_9b11f7fe_level_light_color_on_off
+  service: light.turn_on
+
+
+#alias: Lampen op annes kamer aan met de remote
+#trigger:
+#- event_data:
+#    device_ieee: 00:15:8d:00:03:47:cf:0d
+#    unique_id: 00:15:8d:00:03:47:cf:0d:1:0x0006
+#    command: 'off'
+#  event_type: zha_event
+#  platform: event
+#action:
+#- entity_id: light.ikea_of_sweden_tradfri_bulb_gu10_w_400lm_389108fe_level_on_off
+#  service: light.turn_off

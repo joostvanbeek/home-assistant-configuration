@@ -1,0 +1,201 @@
+- id: '1594161907162'
+  name: Anne slapen
+  entities:
+    light.mli_zbt_extendedcolor_9b11f7fe_level_light_color_on_off:
+      min_mireds: 153
+      max_mireds: 555
+      effect_list:
+      - colorloop
+      off_brightness:
+      friendly_name: Anne bed
+      supported_features: 63
+      state: 'off'
+    light.mli_zbt_extendedcolor_d5d344fe_level_light_color_on_off:
+      min_mireds: 153
+      max_mireds: 555
+      effect_list:
+      - colorloop
+      off_brightness:
+      friendly_name: Anne kast
+      supported_features: 63
+      state: 'off'
+    light.philips_lst001_03c6cf00_level_light_color_on_off:
+      effect_list:
+      - colorloop
+      brightness: 1
+      hs_color:
+      - 285
+      - 71.429
+      rgb_color:
+      - 209
+      - 72
+      - 255
+      xy_color:
+      - 0.321
+      - 0.146
+      off_brightness:
+      friendly_name: Anne ledstrip
+      supported_features: 61
+      state: 'on'
+    light.anne_buro_level_on_off:
+      off_brightness:
+      friendly_name: Anne buro
+      supported_features: 41
+      state: 'off'
+  icon: hass:sleep
+- id: '1594215685433'
+  name: Bram slapen
+  entities:
+    light.philips_lct001_b274ff00_level_light_color_on_off:
+      brightness: 1
+      color_temp: 480
+      effect_list:
+      - colorloop
+      friendly_name: Bram lamp
+      hs_color:
+      - 45
+      - 100
+      max_mireds: 500
+      min_mireds: 153
+      off_brightness:
+      rgb_color:
+      - 255
+      - 191
+      - 0
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.527
+      - 0.447
+    light.philips_lst001_62a1ce00_level_light_color_on_off:
+      brightness: 1
+      effect_list:
+      - colorloop
+      friendly_name: Bram ledstrip
+      hs_color:
+      - 30
+      - 100
+      off_brightness:
+      rgb_color:
+      - 255
+      - 127
+      - 0
+      state: 'on'
+      supported_features: 61
+      xy_color:
+      - 0.612
+      - 0.374
+  icon: hass:sleep
+- id: '1594639706625'
+  name: Anne alles aan
+  entities:
+    light.ikea_of_sweden_tradfri_bulb_gu10_w_400lm_389108fe_level_on_off:
+      brightness: 254
+      friendly_name: Anne buro
+      off_brightness:
+      state: 'on'
+      supported_features: 41
+    light.mli_zbt_extendedcolor_9b11f7fe_level_light_color_on_off:
+      brightness: 254
+      color_temp: 234
+      effect_list:
+      - colorloop
+      friendly_name: Anne bed
+      hs_color:
+      - 60
+      - 28.571
+      max_mireds: 555
+      min_mireds: 153
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 182
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.372
+      - 0.406
+    light.mli_zbt_extendedcolor_d5d344fe_level_light_color_on_off:
+      brightness: 254
+      color_temp: 209
+      effect_list:
+      - colorloop
+      friendly_name: Anne kast
+      hs_color:
+      - 45
+      - 14.286
+      max_mireds: 555
+      min_mireds: 153
+      off_brightness:
+      rgb_color:
+      - 255
+      - 245
+      - 218
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.353
+      - 0.356
+    light.philips_lst001_03c6cf00_level_light_color_on_off:
+      brightness: 254
+      effect_list:
+      - colorloop
+      friendly_name: Anne ledstrip
+      hs_color:
+      - 30
+      - 71.429
+      off_brightness:
+      rgb_color:
+      - 255
+      - 163
+      - 72
+      state: 'on'
+      supported_features: 61
+      xy_color:
+      - 0.54
+      - 0.393
+  icon: hass:read
+- id: '1598371506849'
+  name: Bram alles aan
+  entities:
+    light.philips_lct001_b274ff00_level_light_color_on_off:
+      brightness: 254
+      color_temp: 480
+      effect_list:
+      - colorloop
+      friendly_name: Bram lamp
+      hs_color:
+      - 45
+      - 100
+      max_mireds: 500
+      min_mireds: 153
+      off_brightness:
+      rgb_color:
+      - 255
+      - 191
+      - 0
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.527
+      - 0.447
+    light.philips_lst001_62a1ce00_level_light_color_on_off:
+      brightness: 254
+      effect_list:
+      - colorloop
+      friendly_name: Bram ledstrip
+      hs_color:
+      - 45
+      - 100
+      off_brightness:
+      rgb_color:
+      - 255
+      - 191
+      - 0
+      state: 'on'
+      supported_features: 61
+      xy_color:
+      - 0.527
+      - 0.447
+  icon: hass:read

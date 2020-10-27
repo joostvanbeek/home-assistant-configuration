@@ -1,0 +1,2 @@
+entity_whitelist:
+    # Entities you want to check are there that might not be in the states list at startrup

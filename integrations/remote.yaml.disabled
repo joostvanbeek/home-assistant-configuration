@@ -1,0 +1,30 @@
+---
+#
+#
+#
+
+remote:
+  - platform: xiaomi_miio
+    host: 192.168.178.144
+    name: xiaomi_remote
+    token: !secret xiaomi_key_remote
+    slot: 1
+#    commands:
+#      tv_aan_beneden:
+#        command:
+#          - raw: nE0m0wlk0mU1mEsmsxmEsmM2AEIAhZgAQs1mgA/AUsAf4B7gcQAR4EVgyMC34A7zCAA=
+#      tv_mute:
+#        command:
+#          - raw: nE0m0wlk0mU1mEsmsxmEsmM2AEKaTgAg5mAis1mgA7AQnMAD6AHICg5rNwJ+AXsC8gUUBaUD0wY7A6sA+5hAAA==
+#      tv_mode_input:
+#        command:
+#          - raw: nE0m0wlk0mU1mEsmswmEsmM2mIBBABlMZsAaQBBzUBkwBzmgA/gYqA/4HEAlQBTAEMAMWAPYJTTCAA==
+#      tv_harder:
+#        command:
+#          - raw: nE0m0wlk0mU1mEsmsxmEsmM2mABHTWaADsBCwB8AL3MwC2AXcAMpjNZuCS4DLAt0BXYJfgDlMIAA
+#      tv_zachter:
+#        command:
+#          - raw: nE0m8wlk0mU0mEsmsxmEsmM2AEIAhZgAQs1AZaazUA/gF/BBgDhgCPAI8EzwB7mEAA==
+          
+        
+      

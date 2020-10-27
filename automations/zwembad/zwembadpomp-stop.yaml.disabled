@@ -1,0 +1,13 @@
+# When timer is stopped, the time run out, another message is sent
+alias: Timerstop
+trigger:
+- platform: event
+  event_type: timer.finished
+  event_data:
+    entity_id: timer.zwembadpomp
+action:
+- service: switch.turn_off
+  data:
+    entity_id: switch.zwembad_switch
+- service: input_boolean.turn_off
+  entity_id: input_boolean.zwembadpomp_3_uur_aan    

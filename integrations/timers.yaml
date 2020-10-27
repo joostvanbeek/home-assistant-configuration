@@ -1,0 +1,18 @@
+# timer voor de zwembadpomp
+timer:
+  zwembadpomp:
+    duration: '03:00:00'
+  slaapkamerlamp:
+    duration: '00:00:01'
+  anneslapen15:
+    duration: '00:15:00'
+  anneslapen10:
+    duration: '00:10:00'
+  anneslapen5:
+    duration: '00:05:00'
+  bramslapen15:
+    duration: '00:15:00'
+  bramslapen10:
+    duration: '00:10:00'    
+  bramslapen5:
+    duration: '00:05:00'    
